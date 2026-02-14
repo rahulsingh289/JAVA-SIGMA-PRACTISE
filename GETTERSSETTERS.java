@@ -2,9 +2,9 @@ public class GETTERSSETTERS {
     public static void main(String args[]){
         Pen p1 = new Pen();
         p1.setcolor("blue");
-        System.out.println(p1.color);
+        System.out.println(p1.getcolor());
         p1.settip(50);
-        System.out.println(p1.tip);
+        System.out.println(p1.gettip());
 
     }
 }
