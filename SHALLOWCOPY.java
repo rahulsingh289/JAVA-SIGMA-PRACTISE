@@ -18,22 +18,21 @@ public class SHALLOWCOPY {
 
     }
 }
-  class Student{
-    String name;
-    int roll;
-    String password;
-    int marks[];
+         class Student{
+              String name;
+             int roll;
+             String password;
+             int marks[];
 
-    Student(String name) {
-      this.name = name;
-      this.marks = new int[3]; 
-    }
-          // Shallow copy constructor
-    // copy constructor
-    Student(Student s1){
+             Student(String name) {
+                   this.name = name;
+               this.marks = new int[3]; 
+                  }
+             // Shallow copy constructor
+        // copy constructor
+              Student(Student s1){
             this.name =s1.name;
             this.roll=s1.roll;
             this.marks=s1.marks;
-    }
-
-}
+             }
+            }           

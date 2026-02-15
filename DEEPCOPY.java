@@ -24,26 +24,26 @@ public class DEEPCOPY {
     }
 }
 
-   class Student{
-    String name;
-    int roll;
-    String password;
-    int marks[];
+            class Student{
+                String name;
+                int roll;
+                String password;
+                int marks[];
 
-    // normal constructor
-    Student(String name) {
-        this.name = name;
-        this.marks = new int[3]; 
-    }
+                // normal constructor
+                Student(String name) {
+                    this.name = name;
+                    this.marks = new int[3]; 
+                }
 
-    // Deep Copy Constructor
-    Student(Student s1){
-        this.name = s1.name;
-        this.roll = s1.roll;
+                // Deep Copy Constructor
+                Student(Student s1){
+                    this.name = s1.name;
+                    this.roll = s1.roll;
 
-        this.marks = new int[s1.marks.length];   // new array
-        for(int i = 0; i < s1.marks.length; i++){
-            this.marks[i] = s1.marks[i];
-        }
-    }
-}
+                    this.marks = new int[s1.marks.length];   // new array
+                    for(int i = 0; i < s1.marks.length; i++){
+                        this.marks[i] = s1.marks[i];
+                    }
+                }
+            }
